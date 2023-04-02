@@ -1,0 +1,137 @@
+.header {
+  padding: 40px 0;
+  min-height: 695px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--header-bg);
+  background-image: url("./../../img/header-bg2.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center center;
+
+  color: var(--header-text);
+  text-align: center;
+}
+
+.header__wrapper {
+  padding: 0 15px;
+  max-width: 660px;
+}
+
+.header__title {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.header__title strong {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.header__title em {
+  font-style: normal;
+  color: var(--accent);
+}
+
+.header__text {
+  margin-bottom: 30px;
+  font-size: 25px;
+  line-height: 1.333;
+}
+
+.header__text p + p {
+  margin-top: 0.5em;
+}
+
+/* Btn */
+
+.btn {
+  display: inline-block;
+  height: 48px;
+  padding: 12px 28px;
+
+  border-radius: 5px;
+  background-color: var(--accent);
+  color: var(--white);
+  letter-spacing: 0.15px;
+  font-size: 16px;
+  font-weight: 500;
+
+  transition: opacity 0.2s ease-in;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+/* Btn outline */
+
+.btn-outline {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+
+  height: 48px;
+  padding: 12px 20px;
+
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+
+  transition: opacity 0.2s ease-in;
+}
+
+.btn-outline:hover {
+  opacity: 0.8;
+}
+
+.btn-outline:active {
+  position: relative;
+  top: 1px;
+}
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
