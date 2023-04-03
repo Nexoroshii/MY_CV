@@ -10,7 +10,7 @@ function Navbar() {
       <div className="container">
         <div className="nav-row">
           <NavLink to="/" className="logo">
-            <strong>FrontEnd developer</strong> portfolio
+            <strong className="purple">FrontEnd developer</strong> portfolio
           </NavLink>
 
           <BtnDarkTheme />
