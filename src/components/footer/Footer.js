@@ -1,8 +1,8 @@
-import vk from "./../../img/icons/vk.svg";
-import instagram from "./../../img/icons/instagram.svg";
+import vk from "./../../assets/img/icons/vk.svg";
+import instagram from "./../../assets/img/icons/instagram.svg";
 
-import gitHub from "./../../img/icons/gitHub.svg";
-import linkedIn from "./../../img/icons/linkedIn.svg";
+import gitHub from "./../../assets/img/icons/gitHub.svg";
+import linkedIn from "./../../assets/img/icons/linkedIn.svg";
 import socialLinks from "./socialLinks";
 import "./style.css";
 import FooterSocialComponent from "./FooterSocialComponent";

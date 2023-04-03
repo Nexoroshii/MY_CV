@@ -9,7 +9,7 @@ import Projects from "./pages/Projects";
 import Contacts from "./pages/Contacts";
 
 import ScrollToTop from "./utils/scrollToTop";
-import Skills from "./components/skills/Skills";
+import Skills from "./pages/Skills";
 
 function App() {
   return (

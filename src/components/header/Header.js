@@ -1,5 +1,6 @@
 import "./style.css";
 import Type from "./Type";
+import pdf from "./../../assets/CV_Final.pdf";
 
 function Header() {
   return (
@@ -20,7 +21,7 @@ function Header() {
             <Type />
           </div>
         </div>
-        <a href="#!" className="btn">
+        <a href={pdf} className="btn">
           Download CV
         </a>
       </div>
