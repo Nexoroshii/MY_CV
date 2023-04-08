@@ -1,3 +1,7 @@
+div {
+  display: block;
+}
+
 .myAvtar {
   justify-content: center !important;
   padding-top: 2.5em !important;
@@ -27,7 +31,12 @@
   padding-top: 50px;
   font-size: 1.2em !important;
   text-align: left;
+  color: var(--project-card-text) !important;
 }
 .purple {
   color: #c770f0;
+}
+
+.skills__wrapper {
+  flex-wrap: wrap;
 }

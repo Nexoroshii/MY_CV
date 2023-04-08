@@ -12,7 +12,10 @@ import { CgCPlusPlus } from "react-icons/cg";
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row
+      className="skills__wrapper"
+      style={{ justifyContent: "center", paddingBottom: "50px" }}
+    >
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
