@@ -27,6 +27,9 @@ div {
   text-align: center;
 }
 
+h2 {
+  color: var(--project-card-text) !important;
+}
 .home-about-body {
   padding-top: 50px;
   font-size: 1.2em !important;
@@ -34,9 +37,5 @@ div {
   color: var(--project-card-text) !important;
 }
 .purple {
-  color: #c770f0;
-}
-
-.skills__wrapper {
-  flex-wrap: wrap;
+  color: #9631c4;
 }

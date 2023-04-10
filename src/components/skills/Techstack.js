@@ -1,53 +1,35 @@
-import { Col, Row } from "react-bootstrap";
+import { Row } from "react-bootstrap";
+import { DiJavascript1 } from "react-icons/di";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-} from "react-icons/di";
-import { SiPytorch, SiFirebase, SiNextdotjs } from "react-icons/si";
-import { CgCPlusPlus } from "react-icons/cg";
+  SiTypescript,
+  SiRedux,
+  SiReact,
+  SiHtml5,
+  SiCss3,
+  SiJquery,
+  SiBootstrap,
+  SiWebpack,
+  SiGit,
+} from "react-icons/si";
+import SkillsElement from "./SkillsElement";
 
 function Techstack() {
-  return (
-    <Row
-      className="skills__wrapper"
-      style={{ justifyContent: "center", paddingBottom: "50px" }}
-    >
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
-      </Col>
-    </Row>
-  );
+  const icons = [
+    DiJavascript1,
+    SiTypescript,
+    SiReact,
+    SiRedux,
+    SiHtml5,
+    SiCss3,
+    SiGit,
+    SiJquery,
+    SiBootstrap,
+    SiWebpack,
+  ];
+  function renderSkills(iconsArr) {
+    return iconsArr.map((i) => <SkillsElement icon={i} />);
+  }
+  return <Row className="skills__wrapper-stack">{renderSkills(icons)}</Row>;
 }
 
 export default Techstack;

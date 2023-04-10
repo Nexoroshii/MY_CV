@@ -2,24 +2,15 @@ import "./style.css";
 import Type from "./Type";
 import pdf from "./../../assets/CV_Final.pdf";
 
+import SayHello from "./SayHello";
+
 function Header() {
   return (
     <header className="header">
       <div className="header__wrapper">
-        <h1 className="header__title">
-          <strong>
-            Hi
-            <span className="wave" role="img" aria-labelledby="wave">
-              👋🏻
-            </span>
-            ! <br />
-            My name is <em>Egor</em>
-          </strong>
-        </h1>
+        <SayHello />
         <div className="header__text">
-          <div>
-            <Type />
-          </div>
+          <Type />
         </div>
         <a href={pdf} className="btn">
           Download CV

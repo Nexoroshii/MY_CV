@@ -1,32 +1,19 @@
-import { Col, Row } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import {
-  SiLinux,
+  SiWindows,
   SiVisualstudiocode,
-  SiPostman,
-  SiHeroku,
-  SiVercel,
+  SiSass,
+  SiFigma,
+  SiGulp,
 } from "react-icons/si";
+import SkillsElement from "./SkillsElement";
 
 function Toolstack() {
-  return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
-      </Col>
-    </Row>
-  );
+  const icons = [SiWindows, SiVisualstudiocode, SiSass, SiFigma, SiGulp];
+  function renderSkills(iconsArr) {
+    return iconsArr.map((i) => <SkillsElement icon={i} />);
+  }
+  return <Row className="skills__wrapper-stack">{renderSkills(icons)}</Row>;
 }
 
 export default Toolstack;
