@@ -1,7 +1,9 @@
+import { Container } from "react-bootstrap";
+
 function Contacts() {
   return (
     <main className="section">
-      <div className="container">
+      <Container>
         <h1 className="title-1">Contacts</h1>
 
         <ul className="content-list">
@@ -24,7 +26,7 @@ function Contacts() {
             </p>
           </li>
         </ul>
-      </div>
+      </Container>
     </main>
   );
 }

@@ -11,6 +11,7 @@ import Contacts from "./pages/Contacts";
 import ScrollToTop from "./utils/scrollToTop";
 import Skills from "./pages/Skills";
 
+
 function App() {
   return (
     <div className="App">

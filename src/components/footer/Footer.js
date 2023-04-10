@@ -16,6 +16,7 @@ function Footer() {
         <div className="footer__wrapper">
           <ul className="social">
             <FooterSocialComponent path={vkLink} img={vk} />
+            
             <FooterSocialComponent path={instagramLink} img={instagram} />
 
             <FooterSocialComponent path={gitHubLink} img={gitHub} />
