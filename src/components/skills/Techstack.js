@@ -18,12 +18,12 @@ function Techstack() {
     DiJavascript1,
     SiTypescript,
     SiReact,
-    SiRedux,
     SiHtml5,
     SiCss3,
-    SiGit,
     SiJquery,
     SiBootstrap,
+    SiRedux,
+    SiGit,
     SiWebpack,
   ];
   function renderSkills(iconsArr) {

@@ -7,7 +7,7 @@ import project06 from "./../../assets/img/projects/06.jpg";
 
 const projectsList = [
   {
-    title: "Gaming streaming portal",
+    title: "Uber Project",
     img: project01,
   },
   {
