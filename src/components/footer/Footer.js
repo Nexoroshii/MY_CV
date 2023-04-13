@@ -16,7 +16,7 @@ function Footer() {
         <div className="footer__wrapper">
           <ul className="social">
             <FooterSocialComponent path={vkLink} img={vk} />
-            
+
             <FooterSocialComponent path={instagramLink} img={instagram} />
 
             <FooterSocialComponent path={gitHubLink} img={gitHub} />
@@ -24,7 +24,7 @@ function Footer() {
             <FooterSocialComponent path={linkedInLink} img={linkedIn} />
           </ul>
           <div className="copyright">
-            <p>© 2023 </p>
+            <p>© 2001-2023 Egor Moyseychik</p>
           </div>
         </div>
       </div>
