@@ -26,7 +26,7 @@ function AboutCard() {
             to become a<b className="purple"> Fullstack developer.</b>
             <br />
             <br />
-            Also I'm intresting in<b className="purple"> Machine Learning </b>
+            Also I'm interesting in<b className="purple"> Machine Learning </b>
             and
             <b className="purple"> Data Science.</b>
             <br />
