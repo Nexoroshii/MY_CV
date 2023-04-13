@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 
 import homeLogo from "./../../assets/img/home-main.svg";
+
 import "./style.css";
 
 function About() {
