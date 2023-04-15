@@ -1,15 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImHome, ImPointRight } from "react-icons/im";
-
-// I'm a hardworking person, who wants to group up in a professional sphere. So I prefer to spend my free time learning something new.
-
-// Now I'm a frontEnd developer, who wants to become Fullstack developer.
-// Also I'm intresting in Machine Learning and Data Science.
-
-// Besides styding i also like to walk in national parks, cycling and travelling.
-
-// The best investment is an investment in yourself.
 
 function AboutCard() {
   return (

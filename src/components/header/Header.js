@@ -12,7 +12,7 @@ function Header() {
         <div className="header__text">
           <Type />
         </div>
-        <a href={pdf} className="btn">
+        <a href={pdf} className="button-cv">
           Download CV
         </a>
       </div>

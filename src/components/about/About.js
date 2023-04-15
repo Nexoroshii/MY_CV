@@ -9,7 +9,7 @@ function About() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={4} className="home-about-description">
+          <Col md={8} className="home-about-description">
             <h2 style={{ fontSize: "2.6em" }}>
               LET'S GET <span className="purple"> ACQUAINTED</span>
             </h2>
@@ -33,7 +33,7 @@ function About() {
               a<b className="purple"> FullStack developer</b> .
             </p>
           </Col>
-          <Col md={8} className="myAvtar">
+          <Col md={4} className="myAvtar">
             <img src={homeLogo} alt="home pic" className="img-fluid" />
           </Col>
         </Row>

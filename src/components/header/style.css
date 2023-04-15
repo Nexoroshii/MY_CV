@@ -50,53 +50,54 @@
 
 /* Btn */
 
-.btn {
+.button-cv {
   display: inline-block;
   height: 48px;
   padding: 12px 28px;
-
   border-radius: 5px;
   background-color: var(--accent);
   color: var(--white);
   letter-spacing: 0.15px;
   font-size: 16px;
   font-weight: 500;
-
   transition: opacity 0.2s ease-in;
 }
 
-.btn:hover {
+.button-cv:hover {
+  background-color: var(--accent);
   opacity: 0.8;
 }
 
-.btn:active {
+.button-cv:active {
   position: relative;
   top: 1px;
 }
 
 /* Btn outline */
+a {
+  color: inherit;
+}
 
-.btn-outline {
+.button-cv-outline {
   display: flex;
   column-gap: 10px;
   align-items: center;
-
+  text-decoration: none;
   height: 48px;
   padding: 12px 20px;
-
   border-radius: 5px;
   border: 1px solid #000;
   background-color: #fff;
   color: #000;
-
   transition: opacity 0.2s ease-in;
 }
 
-.btn-outline:hover {
+.button-cv-outline:hover {
+  background-color: var(--accent);
   opacity: 0.8;
 }
 
-.btn-outline:active {
+.button-cv-outline:active {
   position: relative;
   top: 1px;
 }
