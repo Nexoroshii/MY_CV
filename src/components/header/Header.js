@@ -1,6 +1,6 @@
 import "./style.css";
 import Type from "./Type";
-import pdf from "./../../assets/CV_Final.pdf";
+import pdf from "./../../assets/CV_Ready.pdf";
 
 import SayHello from "./SayHello";
 

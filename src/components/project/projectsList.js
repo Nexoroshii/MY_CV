@@ -11,10 +11,10 @@ import project06 from "./../../assets/img/projects/06.jpg";
 
 const projectsList = [
   {
-    title: "Uber Project",
-    img: project01,
-    link: "https://nexoroshii.github.io/UberProject.github.io/",
-    linkGit: "https://github.com/Nexoroshii/UberProject.github.io",
+    title: "Heroes Template",
+    img: project04,
+    link: "https://heroes-redux-template.netlify.app/",
+    linkGit: "https://github.com/Nexoroshii/Heroes-template",
   },
   {
     title: "Marvel service",
@@ -29,10 +29,10 @@ const projectsList = [
     linkGit: "https://github.com/Nexoroshii/Pulse",
   },
   {
-    title: "Heroes-template",
-    img: project04,
-    link: "https://heroes-redux-template.netlify.app/",
-    linkGit: "https://github.com/Nexoroshii/Heroes-template",
+    title: "Uber Project",
+    img: project01,
+    link: "https://nexoroshii.github.io/UberProject.github.io/",
+    linkGit: "https://github.com/Nexoroshii/UberProject.github.io",
   },
   {
     title: "Food",
