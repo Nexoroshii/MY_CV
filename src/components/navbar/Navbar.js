@@ -9,9 +9,9 @@ function Navbar() {
     <nav className="nav">
       <div className="container">
         <div className="nav-row">
-          <NavLink to="/" className="logo">
+          <div className="logo">
             <strong className="purple">FrontEnd developer</strong> portfolio
-          </NavLink>
+          </div>
 
           <BtnDarkTheme />
 
