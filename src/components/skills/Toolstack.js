@@ -11,7 +11,7 @@ import SkillsElement from "./SkillsElement";
 function Toolstack() {
   const icons = [SiWindows, SiVisualstudiocode, SiSass, SiFigma, SiGulp];
   function renderSkills(iconsArr) {
-    return iconsArr.map((i) => <SkillsElement icon={i} />);
+    return iconsArr.map((i) => <SkillsElement icon={i} key={Math.random()} />);
   }
   return <Row className="skills__wrapper-stack">{renderSkills(icons)}</Row>;
 }

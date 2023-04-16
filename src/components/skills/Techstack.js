@@ -27,7 +27,7 @@ function Techstack() {
     SiWebpack,
   ];
   function renderSkills(iconsArr) {
-    return iconsArr.map((i) => <SkillsElement icon={i} />);
+    return iconsArr.map((i) => <SkillsElement icon={i} key={Math.random()} />);
   }
   return <Row className="skills__wrapper-stack">{renderSkills(icons)}</Row>;
 }
