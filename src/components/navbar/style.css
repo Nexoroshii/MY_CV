@@ -31,10 +31,14 @@
   flex-wrap: wrap;
   row-gap: 10px;
   align-items: center;
+
   column-gap: 40px;
   font-size: 16px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
+}
+ul {
+  margin-bottom: 0;
 }
 
 .nav-list__link {
@@ -59,4 +63,26 @@
   height: 2px;
   width: 100%;
   background-color: var(--accent);
+}
+
+@media (max-width: 767px) {
+  .logo {
+    margin: auto;
+    text-align: center;
+  }
+  .nav-list {
+    padding-left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .dark-mode-btn {
+    order: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .dark-mode-btn {
+    order: 1;
+  }
 }
