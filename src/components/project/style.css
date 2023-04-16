@@ -1,6 +1,3 @@
-.col-md-4 {
-  width: 33.33333333%;
-}
 .project-section {
   position: relative;
   padding: 15px auto;
@@ -30,6 +27,7 @@
 }
 
 .project-body {
+  flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 10px;
 }
@@ -38,6 +36,8 @@
   background-color: blueviolet;
   border-color: blueviolet;
 }
-.git {
-  margin-left: 50px;
+
+.project-wrapper-btn {
+  display: flex;
+  justify-content: center;
 }
