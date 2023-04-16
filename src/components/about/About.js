@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
+import { ReactComponent as SpinSVG } from "./../../assets/img/AnimateMain.svg";
 
-import homeLogo from "./../../assets/img/home-main.svg";
+// import homeLogo from "./../../assets/img/home-main.svg";
 
 import "./style.css";
 
@@ -34,7 +35,8 @@ function About() {
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <img src={homeLogo} alt="home pic" className="img-fluid" />
+            <SpinSVG />
+            {/* <img src={homeLogo} alt="home pic" className="img-fluid" /> */}
           </Col>
         </Row>
       </Container>

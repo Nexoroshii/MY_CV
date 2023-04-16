@@ -13,7 +13,7 @@ function Projects() {
         <Row className="project-body">
           {projectsList.map((proj) => {
             return (
-              <Col md={4} className="project-card">
+              <Col xs={2} md={4} className="project-card">
                 <ProjectCard
                   imgPath={proj.img}
                   isBlog={false}

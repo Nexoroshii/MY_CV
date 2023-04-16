@@ -4,7 +4,9 @@ function Contacts() {
   return (
     <main className="section">
       <Container>
-        <h1 className="title-1">Contacts</h1>
+        <h1 className="title-1">
+          <strong>Contacts</strong>
+        </h1>
 
         <ul className="content-list">
           <li className="content-list__item">
