@@ -15,23 +15,26 @@ function About() {
               LET'S GET <span className="purple"> ACQUAINTED</span>
             </h2>
             <p className="home-about-body">
-              I like programming and its influence on our lives. It’s amazing to
-              do some programs, that can simplify our life. <br />
+              I enjoy programming and its influence on our lives. It's amazing
+              to create programs that can simplify our lives <br />
+              <br />I am interested in building new
+              <b className="purple"> Projects </b>with the help of modern
+              <b className="purple"> WEB technologies.</b> While working on
+              projects, I strive to use and learn new technologies in order to
+              grow as
+              <b className="purple"> a developer</b> and expand my professional
+              skill set.
               <br />
-              I’m interested in building new
-              <b className="purple"> Projects </b>with help of modern
-              <b className="purple"> WEB technologies</b>. During the work, I
-              try to use and learn new ones in order to grow up as
-              <b className="purple"> developer</b> and increase my professional
-              stack. <br />
               <br />
               I’m
-              <b className="purple"> not afraid of hard tasks and studying </b>
-              something new
+              <b className="purple">
+                not afraid of tackling difficult tasks or learning
+              </b>
+              new things.
               <br />
               <br />
-              Soon, I plan to learn<b className="purple"> NodeJs</b> and became
-              a<b className="purple"> FullStack developer</b> .
+              Soon, I plan to learn<b className="purple"> NodeJs</b> and become
+              a<b className="purple"> Full-Stack developer</b> .
             </p>
           </Col>
           <Col md={4} className="myAvtar">

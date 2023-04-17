@@ -11,9 +11,22 @@
   align-items: center;
   row-gap: 27px;
 }
+@media (max-width: 425px) {
+  .social__item img {
+    height: 28px;
+  }
+}
+@media (max-width: 767px) {
+  .social__item img {
+    width: 28px;
+    height: 28px;
+  }
+}
 
 .social {
   display: flex;
+
+  padding-left: 0;
   column-gap: 30px;
   align-items: center;
 }
